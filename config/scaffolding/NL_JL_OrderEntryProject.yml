@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/jvanderl/NL_JL_OrderEntryProject
   gitUsername: jvanderl
   gitBranch: main
+- name: OrderEntry
+  gitServerName: NL_JL_Github
+  gitUrl: https://github.com/jvanderl
+  gitUsername: jvanderl
+  gitBranch: master
