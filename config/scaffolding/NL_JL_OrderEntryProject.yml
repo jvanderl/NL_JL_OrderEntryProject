@@ -8,7 +8,35 @@ packages:
   gitUsername: jvanderl
   gitBranch: main
 - name: OrderEntry
+  version: "1.0"
   gitServerName: NL_JL_Github
   gitUrl: https://github.com/jvanderl
   gitUsername: jvanderl
   gitBranch: master
+services:
+- serviceName: project.nl_jl_orderentry.integrations:InsertOrder
+  packages:
+  - name: NL_JL_OrderEntryProject
+    version: "1.0"
+  - name: OrderEntry
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.32
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: softwareag
+- serviceName: orderentry.service:insertOrder
+  packages:
+  - name: OrderEntry
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.32
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: softwareag
+- serviceName: orderentry.adapter:createOrder
+  packages:
+  - name: OrderEntry
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.32
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: softwareag
