@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: NL_JL_OrderEntryProject
+  gitServerName: NL_JL_Github
+  gitUrl: https://github.com/jvanderl/NL_JL_OrderEntryProject
+  gitUsername: jvanderl
+  gitBranch: main
