@@ -79,58 +79,18 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">jan.van.der.lugt@ibm.com</value>
-    <value name="createdDate">1728985602785</value>
-    <value name="lastModifiedDate">1728985602785</value>
+    <value name="lastModifiedBy">jan.van.der.lugt@ibm.com</value>
+    <value name="lastModifiedDate">1728985696090</value>
     <value name="displayName">getPriceForSKU</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="name">SWITCH</value>
-        <value name="itemType">CONTROLS</value>
-        <value name="nodePathNew">0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">1</number>
-        <record name="value" javaclass="com.wm.util.Values">
-          <value name="name">/productSKU</value>
-          <value name="type">string</value>
-          <value name="dim">0</value>
-          <Boolean name="isLink">false</Boolean>
-          <value name="field_name">productSKU</value>
-          <null name="wrapper_type"/>
-        </record>
-      </record>
-      <record name="/0/0" javaclass="com.wm.util.Values">
-        <value name="name">CASE</value>
-        <value name="itemType">CONTROLS</value>
-        <Boolean name="is_empty">false</Boolean>
-        <value name="nodePathNew">0.0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">2</number>
-      </record>
-      <record name="/0/0/0" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">3</number>
-        <value name="nodePathNew">0.0.0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">3</number>
-      </record>
-      <record name="/0/1" javaclass="com.wm.util.Values">
-        <value name="name">CASE</value>
-        <value name="itemType">CONTROLS</value>
-        <value name="nodePathNew">0.1</value>
-        <number name="nodeIndex" type="Long">1</number>
-        <number name="lineNumberForDebug" type="Long">4</number>
-      </record>
-      <null name="/0/1/0"/>
-      <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">6</number>
-        <value name="nodePathNew">1</value>
-        <number name="nodeIndex" type="Long">1</number>
-        <number name="lineNumberForDebug" type="Long">6</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
@@ -142,11 +102,46 @@
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
       </record>
-      <null name="/1/0"/>
-      <record name="/2" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+      <null name="/0/0"/>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="name">SWITCH</value>
+        <value name="itemType">CONTROLS</value>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+        <record name="value" javaclass="com.wm.util.Values">
+          <value name="name">/productSKU</value>
+          <value name="type">string</value>
+          <value name="dim">0</value>
+          <Boolean name="isLink">false</Boolean>
+          <value name="field_name">productSKU</value>
+          <null name="wrapper_type"/>
+        </record>
       </record>
+      <record name="/1/0" javaclass="com.wm.util.Values">
+        <value name="name">CASE</value>
+        <value name="itemType">CONTROLS</value>
+        <Boolean name="is_empty">false</Boolean>
+        <value name="nodePathNew">1.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">3</number>
+      </record>
+      <record name="/1/0/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">4</number>
+        <value name="nodePathNew">1.0.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">4</number>
+      </record>
+      <record name="/1/1" javaclass="com.wm.util.Values">
+        <value name="name">CASE</value>
+        <value name="itemType">CONTROLS</value>
+        <value name="nodePathNew">0.1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">4</number>
+      </record>
+      <null name="/1/1/0"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
