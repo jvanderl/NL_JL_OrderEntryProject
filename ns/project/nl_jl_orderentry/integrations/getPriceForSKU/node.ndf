@@ -80,7 +80,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">jan.van.der.lugt@ibm.com</value>
-    <value name="lastModifiedDate">1728985696090</value>
+    <value name="lastModifiedDate">1728985898903</value>
     <value name="displayName">getPriceForSKU</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -133,15 +133,83 @@
         <value name="nodePathNew">1.0.0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">4</number>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
       </record>
+      <null name="/1/0/0/0"/>
       <record name="/1/1" javaclass="com.wm.util.Values">
+        <value name="name">CASE</value>
+        <value name="itemType">CONTROLS</value>
+        <Boolean name="is_empty">false</Boolean>
+        <value name="nodePathNew">1.1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">5</number>
+      </record>
+      <record name="/1/1/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">6</number>
+        <value name="nodePathNew">1.1.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">6</number>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+      </record>
+      <null name="/1/1/0/0"/>
+      <record name="/1/2" javaclass="com.wm.util.Values">
+        <value name="name">CASE</value>
+        <value name="itemType">CONTROLS</value>
+        <Boolean name="is_empty">false</Boolean>
+        <value name="nodePathNew">1.2</value>
+        <number name="nodeIndex" type="Long">2</number>
+        <number name="lineNumberForDebug" type="Long">7</number>
+      </record>
+      <record name="/1/2/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">8</number>
+        <value name="nodePathNew">1.2.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">8</number>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+      </record>
+      <null name="/1/2/0/0"/>
+      <record name="/1/3" javaclass="com.wm.util.Values">
         <value name="name">CASE</value>
         <value name="itemType">CONTROLS</value>
         <value name="nodePathNew">0.1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">4</number>
       </record>
-      <null name="/1/1/0"/>
+      <record name="/1/3/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">THROWERROR</value>
+      </record>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
